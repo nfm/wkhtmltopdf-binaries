@@ -3,5 +3,5 @@
 $:.push File.expand_path("../../lib", __FILE__)
 require "wkhtmltopdf_binaries/version"
 
-platform_binary = File.expand_path(File.join(File.dirname(__FILE__), "wkhtmltopdf-0.12.0-linux-x86_64"))
+platform_binary = File.expand_path(File.join(File.dirname(__FILE__), "wkhtmltopdf-0.12.1-linux-x86_64"))
 exec platform_binary, *ARGV
